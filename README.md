@@ -104,3 +104,9 @@ Device: PrimeSense/SensorV2/5.1.0.41: The device is not connected!
 
 Press any key to continue . . .
 这样的问题有可能是这三个包版本不匹配，我这里的三个包亲测是可用的。但是Sensor如果是5.1.6.6版本则出现上面报错。
+
+
+Open failed: Xiron OS failed to wait on event!
+运行如下命令：
+
+$ sudo chmod +x /usr/bin/XnSensorServer
